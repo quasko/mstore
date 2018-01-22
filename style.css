@@ -104,6 +104,11 @@ li.product {
     float:left;
 }
 
+li.product img {
+    width: 270px;
+    height: 350px;
+}
+
 .saleUp {
     height: 200px;
     background: url(img/Bg_Slide4.jpg) no-repeat;
@@ -122,4 +127,15 @@ li.product {
     width: 50%;
     float: right;
     background: url(img/Bg_2.jpg) no-repeat;
+}
+
+.bestsellerList {
+    list-style: none;
+}
+
+.bestSellersADV {
+    width: 270px;
+    height: 505px;
+    background: url(img/Bg_Adv.jpg) no-repeat;
+    float: right;
 }
