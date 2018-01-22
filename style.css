@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    
+}
+
+#top_menu {
+    height: 45px;
+    background-color: #31353d;
+    color: #d7d7d7;
+}
+
+.topLeft {
+    float: left;
+}
+
+.topRight {
+    float: right;
+}
+
+.whiteLine {
+    height: 65px;
+    background-color: white;
+}
+
+#logo {
+    /*display: inline-block;*/
+    float: left;
+}
+
+
+
+#menu>ul {
+    list-style:none;
+   
+}
+
+#menu>ul li {
+    
+    float: left;
+}
+
+#slide1 {
+    height: 630px;
+    background-color: #96dbc9;
+    background-image: url(img/Bg_Slide1.jpg);
+    background-position: center;
+}
+
+#shipping {
+    height: 95px;
+}
+
+#shipping>div:not(:last-child) {
+    display: inline-block;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.boy {
+    display: block;
+    background-color: white;
+    background: url(img/2_1.jpg) no-repeat;
+    width: 570px;
+    height: 400px;
+    float: left;
+}
+
+.girl {
+    display: block;
+    background-color: white;
+    background: url(img/2_2.jpg) no-repeat;
+    width: 570px;
+    height: 400px;
+    float: right;
+}
+
+.newShoes {
+    height: 260px;
+    background-color: white;
+    background: url(img/3.jpg) no-repeat;
+}
+
+.newItemBox {
+    width: 640px;
+    float: left;
+    padding: 30px 40px 30px 40px;
+}
+
+ul.productList {
+    list-style: none;
+}
+
+li.product {
+    float:left;
+}
+
+.saleUp {
+    height: 200px;
+    background: url(img/Bg_Slide4.jpg) no-repeat;
+}
+
+.weLove {
+    height: 400px;
+}
+.weLoveLeft {
+    width: 50%;
+    float: left;
+}
+
+.weLoveRight {
+    height: inherit;
+    width: 50%;
+    float: right;
+    background: url(img/Bg_2.jpg) no-repeat;
+}
