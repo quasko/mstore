@@ -1,3 +1,14 @@
+@font-face {
+    font-family: roboto-medium;
+    src: url(font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(font/Roboto-Light.ttf);
+}
+
+
 body {
     background-color: white;
     width: 100%;
@@ -8,10 +19,12 @@ body {
     
 }
 
-#top_menu {
+.top_menu {
     height: 45px;
     background-color: #31353d;
     color: #d7d7d7;
+    font-family: roboto-light;
+    font-size: 10px;
 }
 
 .topLeft {
