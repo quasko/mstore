@@ -139,3 +139,27 @@ li.product img {
     background: url(img/Bg_Adv.jpg) no-repeat;
     float: right;
 }
+
+.postList {
+    list-style: none;
+}
+
+li.post {
+    display: block;
+    float: left;
+    width: 370px;
+}
+
+.joinOur {
+    background: url(img/Bg_email.jpg) no-repeat;
+    height: 202px;
+}
+
+.joinForm {
+    float: right;
+}
+
+.joinForm p {
+    
+    text-align: right;
+}
